@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<script>
+function multiply(){
+var a,b,c;
+a=Number(document.getElementById("first").value);
+b=Number(document.getElementById("second").value);
+c= a * b;
+document.getElementById("answer").value= c;
+}
+</script>
+</head>
+<body>
+<input id="first">
+<input id="second">
+<button onclick="multiply()">Product</button>
+<input id="answer">
+</body>
+</html>
